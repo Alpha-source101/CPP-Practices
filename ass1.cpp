@@ -1,9 +1,4 @@
-//  Author & Book
-// An author can write many books; each book has exactly one author.
-// Classes: Author (name, country) and Book (title, isbn, price).
-// Model the association using a reference.
-// In the Author class, provide a method totalBookValue() that returns the sum of prices of all books by that author.
-// In the Book class, provide a method authorCountry() that returns the authorâ€™s country.
+
 
 #include<iostream>
 #include<string>
