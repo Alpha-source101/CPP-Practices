@@ -1,15 +1,14 @@
-
-
-#include <iostream>
+// 1- Print 1 to N Write a program that reads an integer N and prints all numbers from 1 to N 
+//(each on a new line) using a for loop. Example:
+// N=5 ? 1 2 3 4 5
+#include<iostream>
 using namespace std;
 
 int main(){
-	int x=10;
-	int* p = &x;
-	int** pp = &p;
-	cout<<"x is : "<<x<<endl;
-	cout<<"p is : "<<*p<<endl;
-	cout<<"before change pp is  : "<<**pp<<endl;
-	**pp = 20;
-		cout<<"after change pp is  : "<<**pp<<endl;
+	int n;
+	cout<<"Enter total number n : "<<endl;
+	cin>>n;
+	for(int i=1 ; i<=n; i++){
+		cout<<i<<endl;
+	}
 }
